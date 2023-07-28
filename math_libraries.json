@@ -1,0 +1,176 @@
+{
+    "arkworks": {
+        "label": "arkworks-rs",
+        "version": "0.4.2",
+        "language": "Rust",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "https://arkworks.rs/",
+        "benchmark_with": "criterion",
+        "curves/fields": [
+            "BN254",
+            "BLS12-377",
+            "BLS12-381",
+            "MNT4-298",
+            "MNT4-753",
+            "MNT6-298",
+            "MNT6-753",
+            "Grumpkin",
+            "BW6-761",
+            "CP6-782",
+            "secp256k1",
+            "secp256r1",
+            "secp384r1",
+            "secq256k1"
+        ],
+        "framework": [
+            {
+                "name": "arkworks",
+                "url": "https://github.com/arkworks-rs/snark"
+            }
+        ]
+    },
+    "blstrs": {
+        "label": "blstrs",
+        "version": "0.7.0",
+        "language": "Rust",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "https://github.com/filecoin-project/blstrs",
+        "benchmark_with": "criterion",
+        "curves/fields": [
+            "BLS12-381"
+        ],
+        "framework": []
+    },
+    "curve25519-dalek": {
+        "label": "curve25519-dalek-ng",
+        "version": "4.1.1",
+        "language": "Rust",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "dalek.rs",
+        "benchmark_with": "criterion",
+        "curves/fields": [
+            "Curve25519"
+        ],
+        "framework": []
+    },
+    "ffjavascript": {
+        "label": "ffjavascript",
+        "version": "0.2.59",
+        "language": "JavaScript/WASM",
+        "compiler/interpreter": "nodejs: 16.14.0",
+        "url": "https://github.com/iden3/ffjavascript",
+        "benchmark_with": "tinybench",
+        "curves/fields": [
+            "BN128",
+            "BLS12-381"
+        ],
+        "framework": [
+            {
+                "name": "snarkjs",
+                "url": "https://github.com/iden3/snarkjs"
+            }
+        ]
+    },
+    "halo2_curves": {
+        "label": "halo2_curves",
+        "version": "0.3.1 (branch: msm)",
+        "language": "Rust",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "https://github.com/privacy-scaling-explorations/halo2curves",
+        "benchmark_with": "criterion",
+        "curves/fields": [
+            "BN256",
+            "Pallas",
+            "Vesta"
+        ],
+        "framework": [
+            {
+                "name": "halo2-PSE",
+                "url": "https://github.com/privacy-scaling-explorations/halo2"
+            }
+        ]
+    },
+    "pairing_ce": {
+        "label": "pairing_ce",
+        "version": "0.28.5",
+        "language": "Rust",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "https://github.com/matter-labs/pairing",
+        "benchmark_with": "criterion",
+        "curves/fields": [
+            "BN256",
+            "BLS12-381"
+        ],
+        "framework": [
+            {
+                "name": "bellman-ce",
+                "url": "https://github.com/matter-labs/bellman"
+            }
+        ]
+    },
+    "pasta_curves": {
+        "label": "pasta_curves",
+        "version": "0.5.1",
+        "language": "Rust",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "https://github.com/zcash/pasta_curves",
+        "benchmark_with": "criterion",
+        "curves/fields": [
+            "Pallas",
+            "Vesta"
+        ],
+        "framework": [
+            {
+                "name": "halo2",
+                "url": "https://github.com/zcash/halo2"
+            }
+        ]
+    },
+    "gnark_crypto": {
+        "label": "gnark-crypto",
+        "version": "0.11.1 (branch: zkalc)",
+        "language": "golang",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "https://github.com/ConsenSys/gnark-crypto/",
+        "benchmark_with": "golang",
+        "curves/fields": [
+            "BN254",
+            "BLS12-377",
+            "BLS12-378",
+            "BLS12-381",
+            "BLS12-387",
+            "BLS24-315",
+            "BLS24-317",
+            "BW6-761",
+            "BW6-756",
+            "BW6-633",
+            "secp256k1",
+            "stark-curve",
+            "goldilocks"
+        ],
+        "framework": [
+            {
+                "name": "gnark",
+                "url": "https://github.com/Consensys/gnark"
+            }
+        ]
+    },
+    "zkcrypto": {
+        "label": "zkcrypto",
+        "version": "group=0.13 pairing=0.23 bls12_381=0.8 jubjub=0.10",
+        "language": "Rust",
+        "compiler/interpreter": "rustc: 1.68.0-nightly",
+        "url": "https://github.com/zkcrypto",
+        "benchmark_with": "criterion",
+        "curves/fields": [
+            "jubjub",
+            "BLS12-381"
+        ],
+        "framework": [
+            {
+                "name": "bellman",
+                "url": "https://github.com/zkcrypto/bellman"
+            }
+        ]
+    }
+}
