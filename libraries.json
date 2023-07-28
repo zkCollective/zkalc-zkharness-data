@@ -91,7 +91,7 @@
         ]
     },
     "pairing_ce": {
-        "label": "pairing_ce",
+        "label": "Pairing Community Edition",
         "version": "0.28.5",
         "language": "Rust",
         "compiler/interpreter": "rustc: 1.68.0-nightly",
