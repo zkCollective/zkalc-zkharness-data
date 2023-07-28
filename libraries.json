@@ -6,22 +6,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "https://arkworks.rs/",
         "benchmark_with": "criterion",
-        "curves/fields": [
-            "BN254",
-            "BLS12-377",
-            "BLS12-381",
-            "MNT4-298",
-            "MNT4-753",
-            "MNT6-298",
-            "MNT6-753",
-            "Grumpkin",
-            "BW6-761",
-            "CP6-782",
-            "secp256k1",
-            "secp256r1",
-            "secp384r1",
-            "secq256k1"
-        ],
         "framework": [
             {
                 "name": "arkworks",
@@ -36,9 +20,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "https://github.com/filecoin-project/blstrs",
         "benchmark_with": "criterion",
-        "curves/fields": [
-            "BLS12-381"
-        ],
         "framework": []
     },
     "curve25519-dalek": {
@@ -48,9 +29,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "dalek.rs",
         "benchmark_with": "criterion",
-        "curves/fields": [
-            "Curve25519"
-        ],
         "framework": []
     },
     "ffjavascript": {
@@ -60,10 +38,6 @@
         "compiler/interpreter": "nodejs: 16.14.0",
         "url": "https://github.com/iden3/ffjavascript",
         "benchmark_with": "tinybench",
-        "curves/fields": [
-            "BN128",
-            "BLS12-381"
-        ],
         "framework": [
             {
                 "name": "snarkjs",
@@ -78,11 +52,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "https://github.com/privacy-scaling-explorations/halo2curves",
         "benchmark_with": "criterion",
-        "curves/fields": [
-            "BN256",
-            "Pallas",
-            "Vesta"
-        ],
         "framework": [
             {
                 "name": "halo2-PSE",
@@ -97,10 +66,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "https://github.com/matter-labs/pairing",
         "benchmark_with": "criterion",
-        "curves/fields": [
-            "BN256",
-            "BLS12-381"
-        ],
         "framework": [
             {
                 "name": "bellman-ce",
@@ -115,10 +80,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "https://github.com/zcash/pasta_curves",
         "benchmark_with": "criterion",
-        "curves/fields": [
-            "Pallas",
-            "Vesta"
-        ],
         "framework": [
             {
                 "name": "halo2",
@@ -133,21 +94,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "https://github.com/ConsenSys/gnark-crypto/",
         "benchmark_with": "golang",
-        "curves/fields": [
-            "BN254",
-            "BLS12-377",
-            "BLS12-378",
-            "BLS12-381",
-            "BLS12-387",
-            "BLS24-315",
-            "BLS24-317",
-            "BW6-761",
-            "BW6-756",
-            "BW6-633",
-            "secp256k1",
-            "stark-curve",
-            "goldilocks"
-        ],
         "framework": [
             {
                 "name": "gnark",
@@ -162,10 +108,6 @@
         "compiler/interpreter": "rustc: 1.68.0-nightly",
         "url": "https://github.com/zkcrypto",
         "benchmark_with": "criterion",
-        "curves/fields": [
-            "jubjub",
-            "BLS12-381"
-        ],
         "framework": [
             {
                 "name": "bellman",
