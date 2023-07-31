@@ -31,3 +31,4 @@ starky,circuit,starky,goldilocks,exponentiate,input/circuit/exponentiate_2/input
 starky,circuit,starky,goldilocks,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,,,,12848386048,87349,350028,10
 starky,circuit,starky,goldilocks,exponentiate,input/circuit/exponentiate_2/input_25.json,witness,,,,31449088,2151,,10
 starky,circuit,starky,goldilocks,exponentiate,input/circuit/exponentiate_2/input_25.json,prove,,,,25528082432,179767,369100,10
+starky,circuit,starky,goldilocks,exponentiate,input/circuit/exponentiate_2/input_25.json,verify,,,,,179767,,10
