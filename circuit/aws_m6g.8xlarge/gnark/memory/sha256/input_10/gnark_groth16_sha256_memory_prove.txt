@@ -1,0 +1,39 @@
+panic: Error when computing proof. Ensure that Constraint System and pk/vk are generated for the same parameters.
+
+goroutine 1 [running]:
+main.runGroth16MemoryProve(0xab3b80?, {0x63796b?, 0x4?, 0x4?})
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/groth16_memory_prove/groth16_memory_prove.go:69 +0x6b0
+github.com/spf13/cobra.(*Command).execute(0xab3b80, {0x400012c010, 0x4, 0x4})
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:920 +0x5c8
+github.com/spf13/cobra.(*Command).ExecuteC(0xab3b80)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:1044 +0x368
+github.com/spf13/cobra.(*Command).Execute(...)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:968
+main.Execute()
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/groth16_memory_prove/groth16_memory_prove.go:103 +0x28
+main.main()
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/groth16_memory_prove/main.go:4 +0x1c
+Command exited with non-zero status 2
+	Command being timed: "./groth16_memory_prove --circuit=sha256 --curve=bls12_381 --input=input/circuit/sha256/input_10.json --count=10"
+	User time (seconds): 19327.42
+	System time (seconds): 54.60
+	Percent of CPU this job got: 2773%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:38.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16160568
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1994412
+	Voluntary context switches: 179963
+	Involuntary context switches: 95440
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 2

@@ -1,0 +1,40 @@
+panic: runtime error: makeslice: len out of range
+
+goroutine 453 [running]:
+github.com/consensys/gnark/backend/groth16/bls12-381.computeH({0x4000d3a000, 0x3e9, 0x400}, {0x4000d42000, 0x3e9, 0x400}, {0x4000d4a000, 0x3e9, 0x400}, 0x40002f6000)
+	/home/ec2-user/go/pkg/mod/github.com/consensys/gnark@v0.7.2-0.20230605143745-6ec0af711b06/backend/groth16/bls12-381/prove.go:324 +0x6c
+github.com/consensys/gnark/backend/groth16/bls12-381.Prove.func2()
+	/home/ec2-user/go/pkg/mod/github.com/consensys/gnark@v0.7.2-0.20230605143745-6ec0af711b06/backend/groth16/bls12-381/prove.go:109 +0x60
+created by github.com/consensys/gnark/backend/groth16/bls12-381.Prove
+	/home/ec2-user/go/pkg/mod/github.com/consensys/gnark@v0.7.2-0.20230605143745-6ec0af711b06/backend/groth16/bls12-381/prove.go:108 +0x634
+panic: runtime error: index out of range [103] with length 103
+
+goroutine 455 [running]:
+github.com/consensys/gnark/backend/groth16/bls12-381.Prove.func4()
+	/home/ec2-user/go/pkg/mod/github.com/consensys/gnark@v0.7.2-0.20230605143745-6ec0af711b06/backend/groth16/bls12-381/prove.go:135 +0x14c
+created by github.com/consensys/gnark/backend/groth16/bls12-381.Prove
+	/home/ec2-user/go/pkg/mod/github.com/consensys/gnark@v0.7.2-0.20230605143745-6ec0af711b06/backend/groth16/bls12-381/prove.go:132 +0x7ac
+Command exited with non-zero status 2
+	Command being timed: "./groth16_memory_prove --circuit=exponentiate --curve=bls12_381 --input=input/circuit/exponentiate/input_1000.json --count=10"
+	User time (seconds): 0.22
+	System time (seconds): 0.00
+	Percent of CPU this job got: 396%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 2350
+	Voluntary context switches: 568
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 2

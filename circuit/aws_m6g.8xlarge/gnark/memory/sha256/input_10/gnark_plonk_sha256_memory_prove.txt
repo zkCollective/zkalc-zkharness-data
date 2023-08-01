@@ -1,0 +1,39 @@
+panic: Error when computing proof. Ensure that Constraint System and pk/vk are generated for the same parameters.
+
+goroutine 1 [running]:
+main.runPlonkMemoryProve(0xb750a0?, {0x6ba5af?, 0x4?, 0x4?})
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/plonk_memory_prove/plonk_memory_prove.go:66 +0x6b0
+github.com/spf13/cobra.(*Command).execute(0xb750a0, {0x40000120b0, 0x4, 0x4})
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:920 +0x5c8
+github.com/spf13/cobra.(*Command).ExecuteC(0xb750a0)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:1044 +0x368
+github.com/spf13/cobra.(*Command).Execute(...)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:968
+main.Execute()
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/plonk_memory_prove/plonk_memory_prove.go:100 +0x28
+main.main()
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/plonk_memory_prove/main.go:4 +0x1c
+Command exited with non-zero status 2
+	Command being timed: "./plonk_memory_prove --circuit=sha256 --curve=bls12_381 --input=input/circuit/sha256/input_10.json --count=10"
+	User time (seconds): 1031.76
+	System time (seconds): 59.21
+	Percent of CPU this job got: 712%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:33.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51027656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2604480
+	Voluntary context switches: 155890
+	Involuntary context switches: 5077
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 2
