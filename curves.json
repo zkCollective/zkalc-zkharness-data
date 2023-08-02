@@ -27,10 +27,6 @@
         "label": "BN254",
         "key": "bn254"
     },
-    "bn256": {
-        "label": "BN256",
-        "key": "bn256"
-    },
     "jubjub": {
         "label": "jubjub",
         "key": "jubjub"
