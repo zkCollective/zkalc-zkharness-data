@@ -30,5 +30,21 @@
     "jubjub": {
         "label": "jubjub",
         "key": "jubjub"
+    },
+    "CP6_782": {
+        "label": "CP6-782",
+        "key": "CP6_782"
+    },
+    "MNT4_298": {
+        "label": "MNT4-298",
+        "key": "MNT4_298"
+    },
+    "BW6_761": {
+        "label": "BW6-761",
+        "key": "BW6_761"
+    },
+    "MNT6_298": {
+        "label": "MNT6-298",
+        "key": "MNT6_298"
     }
 }
