@@ -1,0 +1,39 @@
+panic: Failed to read from file: invalid fp.Element encoding
+
+goroutine 1 [running]:
+main.runPlonkMemoryVerify(0xec5040?, {0xa8be2e?, 0x4?, 0x4?})
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/plonk_memory_verify/plonk_memory_verify.go:45 +0x525
+github.com/spf13/cobra.(*Command).execute(0xec5040, {0xc0000160b0, 0x4, 0x4})
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:920 +0x847
+github.com/spf13/cobra.(*Command).ExecuteC(0xec5040)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:1044 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:968
+main.Execute()
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/plonk_memory_verify/plonk_memory_verify.go:84 +0x25
+main.main()
+	/home/ec2-user/zk-Harness/frameworks/gnark/cmd/plonk_memory_verify/main.go:4 +0x17
+Command exited with non-zero status 2
+	Command being timed: "./plonk_memory_verify --circuit=exponentiate --curve=bls12_381 --input=input/circuit/exponentiate_2/input_17.json --count=1"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 84%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 871
+	Voluntary context switches: 84
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 2
