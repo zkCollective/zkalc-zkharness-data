@@ -1,0 +1,25 @@
+    Finished release [optimized] target(s) in 0.05s
+     Running `target/release/exponentiate --input ../../input/circuit/exponentiate_2/input_23.json --phase setup --params tmp/params --vk tmp/vk --pk tmp/pk --proof tmp/proof`
+	Command being timed: "cargo run --bin exponentiate --release -- --input ../../input/circuit/exponentiate_2/input_23.json --phase setup --params tmp/params --vk tmp/vk --pk tmp/pk --proof tmp/proof"
+	User time (seconds): 15491.05
+	System time (seconds): 1183.48
+	Percent of CPU this job got: 884%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 31:25.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35754296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17540030
+	Voluntary context switches: 15403
+	Involuntary context switches: 20689
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48247392
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
