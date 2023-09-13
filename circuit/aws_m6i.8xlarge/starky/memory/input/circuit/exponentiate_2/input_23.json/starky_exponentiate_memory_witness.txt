@@ -2,19 +2,19 @@
      Running `target/release/exponentiate_witness --input ../../input/circuit/exponentiate_2/input_23.json --proof tmp/proof`
 	Command being timed: "cargo run --bin exponentiate_witness --release -- --input ../../input/circuit/exponentiate_2/input_23.json --proof tmp/proof"
 	User time (seconds): 0.07
-	System time (seconds): 0.02
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.10
+	System time (seconds): 0.04
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.11
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 30888
+	Maximum resident set size (kbytes): 31464
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 7316
-	Voluntary context switches: 5
-	Involuntary context switches: 2
+	Minor (reclaiming a frame) page faults: 7418
+	Voluntary context switches: 4
+	Involuntary context switches: 0
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 56

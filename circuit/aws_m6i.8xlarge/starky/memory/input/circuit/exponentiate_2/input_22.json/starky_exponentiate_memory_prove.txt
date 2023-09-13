@@ -1,20 +1,20 @@
     Finished release [optimized] target(s) in 0.05s
      Running `target/release/exponentiate_prove --input ../../input/circuit/exponentiate_2/input_22.json --proof tmp/proof`
 	Command being timed: "cargo run --bin exponentiate_prove --release -- --input ../../input/circuit/exponentiate_2/input_22.json --proof tmp/proof"
-	User time (seconds): 104.70
-	System time (seconds): 4.05
-	Percent of CPU this job got: 859%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.65
+	User time (seconds): 105.48
+	System time (seconds): 3.26
+	Percent of CPU this job got: 863%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.59
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3136552
+	Maximum resident set size (kbytes): 3136868
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2051509
-	Voluntary context switches: 55380
-	Involuntary context switches: 458
+	Minor (reclaiming a frame) page faults: 2052322
+	Voluntary context switches: 55165
+	Involuntary context switches: 373
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 632
