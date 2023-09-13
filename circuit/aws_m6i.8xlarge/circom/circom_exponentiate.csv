@@ -85,10 +85,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,415653888,740000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788610048,440360000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459208192,5220000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62066688,190000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14123008,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,45600768,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,453079040,2590000,,1
@@ -175,10 +171,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,416661504,720000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788642816,441490000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459204096,5220000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,61976576,250000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14282752,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,46288896,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,452964352,2680000,,1
@@ -265,10 +257,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,415834112,670000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788552704,444240000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459245056,5320000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62189568,230000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14417920,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,45441024,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,453099520,2740000,,1
@@ -355,10 +343,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,415219712,720000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788610048,444320000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459236864,5220000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62013440,300000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14557184,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,46301184,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,451436544,2610000,,1
@@ -445,10 +429,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,416645120,750000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788581376,453740000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459200000,5230000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62492672,220000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14012416,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,46727168,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,454668288,2690000,,1
@@ -535,10 +515,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,415961088,710000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788446208,446540000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459204096,5220000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62406656,260000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14249984,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,46542848,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,453627904,2610000,,1
@@ -625,10 +601,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,415354880,730000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788548608,446520000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459200000,5240000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62017536,230000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,15421440,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,46673920,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,454344704,2570000,,1
@@ -715,10 +687,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,414093312,690000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788651008,444080000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459191808,5290000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62046208,220000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14319616,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,45105152,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,453570560,2530000,,1
@@ -805,10 +773,6 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,415170560,670000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788380672,442670000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459200000,5220000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,61923328,210000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,compile,1024,0,2,14233600,60000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,witness,1024,0,2,46899200,30000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_10.json,setup,1024,0,2,453939200,2690000,,1
@@ -895,7 +859,3 @@ circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_23.json,verify,8388608,0,2,416731136,740000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,compile,16777216,0,2,42788614144,438650000,,1
 circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,witness,16777216,0,2,1459183616,5220000,,1
-
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/rapidsnark,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,prove,16777216,0,2,,,,1
-circom/snarkjs,circuit,groth16,bn128,exponentiate,input/circuit/exponentiate_2/input_24.json,verify,16777216,0,2,62234624,250000,,1
