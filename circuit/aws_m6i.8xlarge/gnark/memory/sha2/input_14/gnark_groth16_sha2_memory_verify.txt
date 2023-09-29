@@ -1,0 +1,43 @@
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+github.com/consensys/gnark/backend/groth16/bls12-381.Verify(0xc000208200, 0xc0002ea000, {0xc00069e000, 0x20, 0x20})
+	/home/ec2-user/go/pkg/mod/github.com/consensys/gnark@v0.9.0-alpha.0.20230901202440-1b3ba0d80acd/backend/groth16/bls12-381/verify.go:72 +0x1210
+github.com/consensys/gnark/backend/groth16.Verify({0xc56108?, 0xc000208200?}, {0xc5a930?, 0xc0002ea000?}, {0xc5a740?, 0xc000122858?})
+	/home/ec2-user/go/pkg/mod/github.com/consensys/gnark@v0.9.0-alpha.0.20230901202440-1b3ba0d80acd/backend/groth16/groth16.go:126 +0x13d
+main.runGroth16MemoryVerify(0xfb4640?, {0xb1b667?, 0x4?, 0x4?})
+	/home/ec2-user/zk-Harness-gnark/frameworks/gnark/cmd/groth16_memory_verify/groth16_memory_verify.go:69 +0x495
+github.com/spf13/cobra.(*Command).execute(0xfb4640, {0xc00012c010, 0x4, 0x4})
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:920 +0x847
+github.com/spf13/cobra.(*Command).ExecuteC(0xfb4640)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:1044 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	/home/ec2-user/go/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:968
+main.Execute()
+	/home/ec2-user/zk-Harness-gnark/frameworks/gnark/cmd/groth16_memory_verify/groth16_memory_verify.go:77 +0x25
+main.main()
+	/home/ec2-user/zk-Harness-gnark/frameworks/gnark/cmd/groth16_memory_verify/main.go:4 +0x17
+Command exited with non-zero status 2
+	Command being timed: "./groth16_memory_verify --circuit=sha2 --curve=bls12_381 --input=input/circuit/sha2/input_14.json --count=1"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 116%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1269
+	Voluntary context switches: 118
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 2
