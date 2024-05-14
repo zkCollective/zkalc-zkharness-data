@@ -1,0 +1,3 @@
+~/zkalc/backend/gnark/gnark-crypto/ecc ~/zkalc/backend/gnark
+~/zkalc/backend/gnark/gnark-crypto/ecc/secp256k1 ~/zkalc/backend/gnark/gnark-crypto/ecc ~/zkalc/backend/gnark
+~/zkalc/backend/gnark/gnark-crypto/ecc/secp256k1/fr ~/zkalc/backend/gnark/gnark-crypto/ecc/secp256k1 ~/zkalc/backend/gnark/gnark-crypto/ecc ~/zkalc/backend/gnark
